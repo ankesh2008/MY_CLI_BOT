@@ -3,7 +3,7 @@
 # setup.sh — One-command project setup
 
 echo ""  # Terminal par ek khali (blank) line print karta hai taaki output saaf aur organized dikhe.
-echo "🤖 Setting up DOST CLI Chatbot..."  # User ko batane ke liye welcome message print karta hai ki setup shuru ho chuka hai.
+echo " Setting up DOST CLI Chatbot..."  # User ko batane ke liye welcome message print karta hai ki setup shuru ho chuka hai.
 echo ""  # Visual spacing ke liye ek aur khali line.
 
 # Check Python version
