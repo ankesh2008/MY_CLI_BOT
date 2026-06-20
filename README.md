@@ -52,7 +52,7 @@ A terminal-based AI chatbot powered by **OpenRouter API** that maintains convers
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/ankesh2008/MY_CLI_BOT.git
-cd dost-cli-chatbot
+cd MY_CLI_BOT
 ```
 
 ### 2. Install dependencies
