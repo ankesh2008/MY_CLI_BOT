@@ -8,7 +8,8 @@ A terminal-based AI chatbot powered by **OpenRouter API** that maintains convers
 
 ##  Demo
 
-> *(Add a screenshot or screen recording of your chatbot here)*
+<img width="1358" height="719" alt="image" src="https://github.com/user-attachments/assets/72404bc8-b5f6-4644-868c-3ed364d5c535" />
+
 
 ```
 ════════════════════════════════════════════════════════════
