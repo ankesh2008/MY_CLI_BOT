@@ -9,8 +9,18 @@ if sys.platform.startswith("win"):
         sys.stderr.reconfigure(encoding='utf-8') #error -> UTF-8
     except Exception: #if terminal can't support reconfigure
         pass
-#get OPenRouter API key from env. and if can't find then use a placeholder value
-API_KEY = os.getenv("OPENROUTER_API_KEY", "PASTE_YOUR_OpenRouter_API_KEY_Here")
+# Try to load environment variables from .env file if it exists
+if os.path.exists(".env"):
+    with open(".env", "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                parts = line.split("=", 1)
+                if len(parts) == 2:
+                    os.environ[parts[0].strip()] = parts[1].strip()
+
+#get OPenRouter API key from env. and if can't find then uses default key as fallback
+API_KEY = os.getenv("OPENROUTER_API_KEY", "YOUR OPENROUTER KEY")
 MAX_HISTORY_TURNS = 10 #conversation ko max. 10 turns tak rakhta hai
 MODEL_NAME  = "openai/gpt-4o-mini" #uses to call specific model
 #prompt which tells system how  to respond in front of user
