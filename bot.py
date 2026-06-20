@@ -12,7 +12,7 @@ if sys.platform.startswith("win"):
 #get OPenRouter API key from env. and if can't find then use a placeholder value
 API_KEY = os.getenv("OPENROUTER_API_KEY", "PASTE_YOUR_OpenRouter_API_KEY_Here")
 MAX_HISTORY_TURNS = 10 #conversation ko max. 10 turns tak rakhta hai
-MODEL_NAME  = "google/gemini-embedding-2" #uses to call specific model
+MODEL_NAME  = "openai/gpt-4o-mini" #uses to call specific model
 #prompt which tells system how  to respond in front of user
 SYSTEM_PROMPT = """You are DOST, an emotionally intelligent AI assistant.
  
