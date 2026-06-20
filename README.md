@@ -194,5 +194,5 @@ OpenRouter provides access to many models. Make sure to use a **chat/generation 
 
 ## 📬 Connect with Me
 
-- **LinkedIn:** [your-linkedin-url]
-- **GitHub:** [your-github-url]
+- **LinkedIn:** [https://www.linkedin.com/in/ankesh-singh-9898503a6/]
+- **GitHub:** [https://github.com/ankesh2008]
